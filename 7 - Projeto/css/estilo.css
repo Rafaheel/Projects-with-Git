@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    color: white;
+    background: #5b71ec;
+}
+
+.textview {
+    width: 202px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+    background: #374386;
+    color: white;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+}
+
+.bg {
+    background: url('../img/bg.png');
+    width: 100%;
+    height: 100%;   
+
+}
+
+#rodape {
+    display: inline;    
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);    
+}
+
+.img {
+    width: 50px;
+    padding: 10px;
+}
+
+#rel {
+    background: none;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    border: none;
+    
+}
