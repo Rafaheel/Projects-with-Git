@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portifolio</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Portifolio</a>
+        <div class="toggle" onclick="toggleMenu();" ></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About Me</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="home" >        
+        <div class="textBx">
+            <h2>Hello, I'm <br> <span>Rafael da Silva Ferreira</span></h2>
+            <h3>I'm a FullStack devoloper beginner</h3>
+            <a href="#about" class="btn">About Me</a>
+            
+        </div>
+    </section>
+    <section class="about" id="about" >
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>I'm a FullStack developer beginner</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi magni expedita quisquam porro distinctio, esse recusandae quis nam ea voluptate, dolorem dolorum fuga eligendi suscipit hic iure quam iusto nostrum.</p>
+            </div>
+            <div class="w50">
+                <img src="./images/img1.jpg" alt="" class="img">
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services" >
+        <div class="heading white">
+            <h2>Our Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem suscipit amet reprehenderit! Facere officiis quod reiciendis odio nostrum rerum dicta perspiciatis, magni doloribus, ipsam corrupti quidem repudiandae sunt voluptatibus neque.</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="./images/icon1.png" alt="">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, sed error laudantium, consectetur fuga repudiandae ea architecto voluptatibus eius quidem, non ullam ab vitae harum natus nobis voluptate accusamus. Delectus!</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/icon2.png" alt="">
+                <h2>Mobile</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, sed error laudantium, consectetur fuga repudiandae ea architecto voluptatibus eius quidem, non ullam ab vitae harum natus nobis voluptate accusamus. Delectus!</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/icon3.png" alt="">
+                <h2>Data science</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, sed error laudantium, consectetur fuga repudiandae ea architecto voluptatibus eius quidem, non ullam ab vitae harum natus nobis voluptate accusamus. Delectus!</p>
+            </div>
+        </div>
+    </section>
+    <section class="work" id="work" >
+        <div class="heading">
+            <h2>Our Latest Work</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium fugiat distinctio sequi in necessitatibus. Eius provident corrupti sequi, sint delectus nemo vitae magni iusto exercitationem reiciendis neque et possimus accusamus?</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <img src="./images/product1.jpg" alt="">
+            </div>
+            <div class="heading">
+                <a href="" class="btn">View More</a>
+            </div>
+            
+        </div>
+    </section>
+    <section class="testimonial" id="testimonial" >
+        <div class="heading">
+            <h2>Testemonial</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eos, eligendi vitae rerum et in aliquam explicabo laborum non commodi magnam tenetur molestiae enim nulla id aut, minima eum optio!</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis enim architecto fuga corrupti aspernatur maiores accusantium magni a repudiandae libero. Officiis recusandae eveniet tempora reiciendis consequatur quaerat quod perferendis magni.</p>
+                <h3>Someone Famous<br><span>Creative Designer</span></h3>
+            </div>
+            <div class="testimonialBx">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis enim architecto fuga corrupti aspernatur maiores accusantium magni a repudiandae libero. Officiis recusandae eveniet tempora reiciendis consequatur quaerat quod perferendis magni.</p>
+                <h3>Someone Famous<br><span>Creative Designer</span></h3>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact" >
+        <div class="heading white">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse, ut sed illum labore atque, dolor inventore voluptate aut ipsum facere dolorum. Voluptates debitis aliquam eum id excepturi quas perspiciatis.</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Av. Tuiuti, 710 - Vila Nova, Maringá - PR, 87043-720</p>
+                    </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-phone"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>(44) 99966-0135</p>
+                    </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope-o"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>rafael_dasilva11@outlook.com</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formbx">
+                <form action="">
+                    <h3>Message Me</h3>
+                    <input type="text" name="" placeholder="Full Name">
+                    <input type="email" name="" placeholder="Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>Copyright 2020 Rafael da Silva Ferreira</p>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>    
+</body>
+</html>
