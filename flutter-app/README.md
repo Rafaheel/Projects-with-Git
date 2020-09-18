@@ -1,4 +1,4 @@
-# doglife
+# Vendor
 
 A new Flutter project.
 
