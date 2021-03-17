@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nome": "Celular",
+        "valor": 1500
+    },
+    {
+        "id": 2,
+        "nome": "Geladeira",
+        "valor": 1300
+    },
+    {
+        "id": 3,
+        "nome": "Note Gamer",
+        "valor": 7500
+    },
+    {
+        "id": 4,
+        "nome": "Iphone",
+        "valor": 7000
+    },
+    {
+        "id": 5,
+        "nome": "Placa de video",
+        "valor": 2500
+    },
+    {
+        "id": 6,
+        "nome": "Ps5",
+        "valor": 4999
+    }
+]
