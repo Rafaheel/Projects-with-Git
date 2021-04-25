@@ -1,6 +1,0 @@
-nome = input("Informe seu nome: ").strip()
-print(nome.capitalize())
-print(nome.upper())
-print(nome.lower())
-print(len(nome)-nome.count(' '))
-print(nome.find(" "))

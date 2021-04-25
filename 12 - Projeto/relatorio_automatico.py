@@ -17,7 +17,7 @@ sleep(2)
 site_dadosgov.find_element_by_xpath('//*[@id="dataset-resources"]/ul/li[1]/a').click()
 sleep(2)
 site_dadosgov.find_element_by_xpath('//*[@id="content"]/div[3]/section/div[1]/div[1]/ul/li/a').click()
-sleep(2)
+sleep(10)
 
 site_dadosgov.quit()
 

@@ -1,4 +1,5 @@
-('C:\\Users\\Python\\Desktop\\automacao\\build\\relatorio_automatico\\PYZ-00.pyz',
+('C:\\Users\\Python\\Desktop\\Projects-with-Git\\12 - '
+ 'Projeto\\build\\relatorio_automatico\\PYZ-00.pyz',
  [('multiprocessing.popen_spawn_posix',
    'c:\\python39\\lib\\multiprocessing\\popen_spawn_posix.py',
    'PYMODULE'),
@@ -347,8 +348,8 @@
    'c:\\python39\\lib\\multiprocessing\\__init__.py',
    'PYMODULE'),
   ('os', 'c:\\python39\\lib\\os.py', 'PYMODULE'),
-  ('stringprep', 'c:\\python39\\lib\\stringprep.py', 'PYMODULE'),
   ('tracemalloc', 'c:\\python39\\lib\\tracemalloc.py', 'PYMODULE'),
+  ('stringprep', 'c:\\python39\\lib\\stringprep.py', 'PYMODULE'),
   ('_py_abc', 'c:\\python39\\lib\\_py_abc.py', 'PYMODULE'),
   ('datetime', 'c:\\python39\\lib\\datetime.py', 'PYMODULE'),
   ('_strptime', 'c:\\python39\\lib\\_strptime.py', 'PYMODULE'),

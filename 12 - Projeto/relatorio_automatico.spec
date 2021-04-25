@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['relatorio_automatico.py'],
-             pathex=['C:\\Users\\Python\\Desktop\\automacao'],
+             pathex=['C:\\Users\\Python\\Desktop\\Projects-with-Git\\12 - Projeto'],
              binaries=[],
              datas=[],
              hiddenimports=[],

@@ -1,4 +1,5 @@
-('C:\\Users\\Python\\Desktop\\automacao\\build\\relatorio_automatico\\relatorio_automatico.exe',
+('C:\\Users\\Python\\Desktop\\Projects-with-Git\\12 - '
+ 'Projeto\\build\\relatorio_automatico\\relatorio_automatico.exe',
  True,
  False,
  True,
@@ -10,7 +11,8 @@
  True,
  'relatorio_automatico.pkg',
  [('PYZ-00.pyz',
-   'C:\\Users\\Python\\Desktop\\automacao\\build\\relatorio_automatico\\PYZ-00.pyz',
+   'C:\\Users\\Python\\Desktop\\Projects-with-Git\\12 - '
+   'Projeto\\build\\relatorio_automatico\\PYZ-00.pyz',
    'PYZ'),
   ('struct', 'c:\\python39\\lib\\struct.pyo', 'PYMODULE'),
   ('pyimod01_os_path',
@@ -29,15 +31,17 @@
    'C:\\Python39\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
    'PYSOURCE'),
   ('relatorio_automatico',
-   'C:\\Users\\Python\\Desktop\\automacao\\relatorio_automatico.py',
+   'C:\\Users\\Python\\Desktop\\Projects-with-Git\\12 - '
+   'Projeto\\relatorio_automatico.py',
    'PYSOURCE'),
   ('relatorio_automatico.exe.manifest',
-   'C:\\Users\\Python\\Desktop\\automacao\\build\\relatorio_automatico\\relatorio_automatico.exe.manifest',
+   'C:\\Users\\Python\\Desktop\\Projects-with-Git\\12 - '
+   'Projeto\\build\\relatorio_automatico\\relatorio_automatico.exe.manifest',
    'BINARY')],
  [],
  False,
  False,
- 1615939525,
+ 1616717357,
  [('run.exe',
    'c:\\python39\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
    'EXECUTABLE')])
