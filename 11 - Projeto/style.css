@@ -139,12 +139,12 @@ header ul li a {
 }
 
 .w50 {
-    min-width: 75%;       
+    min-width: 50%;       
 }
 
 img {
-    max-width: 75%;
-    max-height: 75%;    
+    max-width: 70%;
+    max-height: 70%;    
     border-radius: 20px;
 }
 
@@ -342,7 +342,7 @@ img {
 
 /*Responsive*/
 
-@media (max-width: 991px) {
+@media (max-width: 1000px) {
     header, 
     header.sticky {
         padding: 20px 50px;
@@ -363,7 +363,7 @@ img {
         border-top: 1px solid rgba(0,0,0,0.2);
     }
     .menu.active {
-        left: -100%;
+        left: 0%;
     }
     header ul li a {
         color: #111;
@@ -443,7 +443,7 @@ img {
 @media (max-width: 600px) {
     header, 
     header.sticky {
-        padding: 20px 20px;        
+        padding: 20px 20px;               
     }
     .banner {
         padding: 150px 20px 100px;
