@@ -16,7 +16,7 @@ Screen:
 <FormLogin@FloatLayout>:          
     MDIconButton:
         pos_hint: {'center_x': .5, 'center_y': .8}        
-        icon: 'language-python'
+        icon: 'language-android'
         user_font_size: '75sp'
     MDTextField:
         size_hint_x: .5
